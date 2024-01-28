@@ -14,78 +14,104 @@
       rel="stylesheet"
     />
 
-    <script type="module" crossorigin src="./assets/index-J-jPRo4L.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-fcT-pBXF.css" />
+    <script type="module" crossorigin src="./assets/index-y1DGHVur.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-rB-McZ2C.css" />
   </head>
   <body>
     <div
-      class="w-full min-h-screen flex flex-col items-center relative gap-10 bg-white text-[#0CAFFF] gilroy-semibold pt-32"
+      class="w-full min-h-screen flex flex-col items-center relative bg-white text-[#0CAFFF] gilroy-semibold -2 gap-12 md:gap-16 lg:gap-16 -red-500"
       id="home"
     >
-      <div
-        class="w-full flex fixed top-0 justify-center bg-white z-10 shadow-sm"
-      >
+      <div class="w-full flex justify-center bg-white shadow-sm">
         <header
-          class="w-full max-w-[1260px] p-5 flex justify-between items-center bg-white gap-5 flex-wrap"
+          class="w-full max-w-[1260px] p-5 flex justify-between items-center relative"
         >
           <h1
-            class="text-4xl flex items-center gap-1 tracking-wide gilroy-bold"
+            class="text-2xl md:text-4xl lg:text-4xl flex items-center gap-1 tracking-wide gilroy-bold main-head"
           >
-            <span
-              class="bg-[#0CAFFF] text-white rounded-full h-[50px] w-[50px] flex items-center justify-center"
-              >G</span
-            >aurav Khare
+            <div
+              class="bg-[#0CAFFF] text-white rounded-full h-[50px] w-[50px] flex items-center justify-center text-4xl pt-[5px] md:pt-0 lg:pt-0"
+            >
+              G
+            </div>
+            aurav Khare
           </h1>
-          <nav class="flex gap-10 text-2xl">
+          <nav class="gap-10 items-center text-2xl hidden md:flex lg:flex">
             <a href="#home" class="relative">Home</a>
             <a href="#my-skills" class="relative">My Skills</a>
             <a href="#my-work" class="relative">My Work</a>
             <a href="#contact-me" class="relative">Contact Me</a>
           </nav>
+          <i
+            class="ri-menu-line menu-btn text-4xl flex md:hidden lg:hidden"
+          ></i>
+          <div class="menu-ctn shadow-2xl">
+            <i
+              class="ri-close-circle-fill absolute top-[15px] right-[15px] text-2xl close-btn"
+            ></i>
+            <a href="#home" class="relative">Home</a>
+            <a href="#my-skills" class="relative">My Skills</a>
+            <a href="#my-work" class="relative">My Work</a>
+            <a href="#contact-me" class="relative">Contact Me</a>
+          </div>
         </header>
       </div>
-      <section class="w-full max-w-[1260px] flex p-5">
+      <section
+        class="w-full max-w-[1260px] flex flex-col gap-12 md:gap-0 lg:gap-0 md:flex-row lg:flex-row p-5"
+      >
         <div
-          class="w-[50%] flex flex-col gap-2 items-start justify-center text-4xl"
+          class="w-full md:w-[50%] lg:w-[50%] flex flex-col gap-4 items-start justify-center text-3xl md:text-3xl lg:text-4xl overflow-hidden"
         >
-          <h1>Hello, 👋 I am <span class="gilroy-bold">Gaurav Khare</span></h1>
-          <h1><span class="typing-anim"></span></h1>
-          <div class="flex gap-5 mt-5">
+          <h1>
+            Hello, 👋 <br class="initial md:hidden lg:hidden" />
+            I am <span class="gilroy-bold">Gaurav Khare</span>
+          </h1>
+          <div class="h-[75px] md:h-fit lg:h-fit">
+            <h1><span class="typing-anim"></span></h1>
+          </div>
+          <div class="flex gap-5 mt-6">
             <a
               href="mailto:iamgauravkha@gmail.com"
-              class="bg-[#0caeff] px-6 py-2 text-white text-[16px] rounded-md hover:bg-[rgba(12,174,255,0.8)] transition-all"
+              class="bg-[#0caeff] px-6 py-2 text-white text-[16px] rounded-md hover:bg-[rgba(12,174,255,0.8)] transition-all z-10"
             >
               Hire Me
             </a>
             <a
               href="./assets/Gaurav Khare ( Full Stack Web Developer ) - Resume.pdf"
               download
-              class="bg-[#0CAFFF] px-6 py-2 text-white text-[16px] rounded-md hover:bg-[rgba(12,174,255,0.8)] transition-all"
+              class="bg-[#0CAFFF] px-6 py-2 text-white text-[16px] rounded-md hover:bg-[rgba(12,174,255,0.8)] transition-all z-10"
               >My Resume
             </a>
           </div>
         </div>
-        <div class="w-[50%] flex items-center justify-end">
+        <div
+          class="w-full md:w-[50%] lg:w-[50%] flex items-center justify-center lg:justify-end"
+        >
           <div
-            class="rounded-full border w-[75%] gradient p-3 drop-shadow-2xl relative avatar-ctn"
+            class="rounded-full w-[75%] gradient p-3 drop-shadow-2xl relative avatar-ctn"
           >
             <img
               src="./assets/avatar-wiK-aY7p.png"
               alt="avatar"
-              class="border-2 w-[100%] rounded-full bg-white"
+              class="w-[100%] rounded-full bg-white"
             />
           </div>
         </div>
       </section>
       <section
-        class="w-full max-w-[1260px] flex flex-col items-center gap-20 px-5 py-20"
+        class="w-full max-w-[1260px] flex flex-col items-center gap-12 md:gap-16 lg:gap-16 p-5"
         id="my-skills"
       >
-        <h1 class="text-4xl">
-          <span class="text-5xl">M</span>e & My Tech Stack
+        <h1 class="text-3xl md:text-4xl lg:text-4xl">
+          <span class="text-4xl md:text-5xl lg:text-5xl">M</span>e & My Tech
+          Stack
         </h1>
-        <div class="w-full flex">
-          <div class="w-[50%]">
+        <div
+          class="w-full flex flex-col-reverse gap-12 md:gap-0 lg:gap-0 md:flex-row lg:flex-row"
+        >
+          <div
+            class="w-full md:w-[50%] lg:w-[50%] flex justify-center md:justify-start lg:justify-start"
+          >
             <div
               class="w-[60%] p-3 drop-shadow-2xl gradient rounded-full avatar-mini-ctn"
             >
@@ -96,7 +122,7 @@
               />
             </div>
           </div>
-          <div class="w-[50%] text-xl flex items-center">
+          <div class="w-full md:w-[50%] lg:w-[50%] text-xl flex items-center">
             <p class="italic text-justify">
               Passionate MERN stack enthusiast with a knack for crafting dynamic
               web applications. I bring a creative mindset and proactive
@@ -106,7 +132,9 @@
             </p>
           </div>
         </div>
-        <div class="w-full columns-4 gap-7 text-xl italic">
+        <div
+          class="w-full column-1 md:columns-3 lg:columns-4 gap-7 text-xl italic"
+        >
           <div class="skill">
             <div><img src="./assets/html-logo-gk0t6tLt.png" alt="" /></div>
             <span>HTML5</span>
@@ -138,7 +166,7 @@
             <span>Next.Js</span>
           </div>
           <div class="skill">
-            <div><img src="./assets/html-logo-gk0t6tLt.png" alt="" /></div>
+            <div><img src="./assets/redux-logo-k7KmqaqG.png" alt="" /></div>
             <span>Redux</span>
           </div>
           <div class="skill">
@@ -176,16 +204,16 @@
             <span>Git/Github</span>
           </div>
           <div class="skill">
-            <div><img src="./assets/postman-logo-P3LxNSYS.svg" alt="" /></div>
+            <div><img src="./assets/postman-logo-MPbzrrW9.svg" alt="" /></div>
             <span>Postman</span>
           </div>
         </div>
-        <div class="w-full flex items-center justify-center relative">
+        <div class="w-full flex items-center justify-center relative mb-10">
           <div
-            class="w-[600px] h-[600px] border relative rounded-full outer-circle"
+            class="w-[250px] h-[250px] md:w-[600px] md:h-[600px] lg:w-[600px] lg:h-[600px] relative rounded-full outer-circle"
           >
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[50%] top-0 translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[50%] top-0 translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
@@ -194,7 +222,7 @@
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[87.5%] top-[12.5%] translate-x-[-62.5%] translate-y-[-37.5%] p-1 gradient outer-tech-circle-1"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[87.5%] top-[12.5%] translate-x-[-62.5%] translate-y-[-37.5%] p-1 gradient outer-tech-circle-1"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
@@ -203,7 +231,7 @@
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[100%] top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[100%] top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
@@ -212,16 +240,16 @@
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[87.5%] top-[87.5%] translate-x-[-62.5%] translate-y-[-62.5%] p-1 gradient outer-tech-circle-2"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[87.5%] top-[87.5%] translate-x-[-62.5%] translate-y-[-62.5%] p-1 gradient outer-tech-circle-2"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
               >
-                <img src="./assets/postman-logo-P3LxNSYS.svg" alt="" />
+                <img src="./assets/postman-logo-MPbzrrW9.svg" alt="" />
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[50%] top-[100%] translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[50%] top-[100%] translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1 overflow-hidden"
@@ -230,7 +258,7 @@
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[12.5%] top-[87.2%] translate-x-[-37.5%] translate-y-[-62.5%] p-1 gradient outer-tech-circle-3"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[12.5%] top-[87.2%] translate-x-[-37.5%] translate-y-[-62.5%] p-1 gradient outer-tech-circle-3"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1 overflow-hidden"
@@ -242,7 +270,7 @@
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-0 top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-0 top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
@@ -251,16 +279,20 @@
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[12.5%] top-[12.5%] translate-x-[-37.5%] translate-y-[-37.5%] p-1 gradient outer-tech-circle-4"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[12.5%] top-[12.5%] translate-x-[-37.5%] translate-y-[-37.5%] p-1 gradient outer-tech-circle-4"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
               >
-                <img src="./assets/node-logo-h_sW6-l-.png" alt="" />
+                <img
+                  src="./assets/redux-logo-k7KmqaqG.png"
+                  class="w-[85%]"
+                  alt=""
+                />
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient outer-tech-circle"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
@@ -274,10 +306,10 @@
             </div>
           </div>
           <div
-            class="w-[300px] h-[300px] border rounded-full absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] inner-circle"
+            class="w-[125px] h-[125px] md:w-[300px] md:h-[300px] lg:w-[300px] lg:h-[300px] rounded-full absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] inner-circle"
           >
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[50%] top-0 translate-x-[-50%] translate-y-[-50%] p-1 gradient inner-tech-circle"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[50%] top-0 translate-x-[-50%] translate-y-[-50%] p-1 gradient inner-tech-circle"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
@@ -290,7 +322,7 @@
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[100%] top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient inner-tech-circle"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[100%] top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient inner-tech-circle"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
@@ -303,7 +335,7 @@
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-[50%] top-[100%] translate-x-[-50%] translate-y-[-50%] p-1 gradient inner-tech-circle"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-[50%] top-[100%] translate-x-[-50%] translate-y-[-50%] p-1 gradient inner-tech-circle"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1 overflow-hidden"
@@ -312,7 +344,7 @@
               </div>
             </div>
             <div
-              class="h-[100px] w-[100px] rounded-full absolute left-0 top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient inner-tech-circle"
+              class="w-[50px] h-[50px] md:w-[75px] md:h-[75px] lg:w-[100px] lg:h-[100px] rounded-full absolute left-0 top-[50%] translate-x-[-50%] translate-y-[-50%] p-1 gradient inner-tech-circle"
             >
               <div
                 class="rounded-full bg-white h-full w-full flex items-center justify-center p-1"
@@ -327,14 +359,18 @@
         </div>
       </section>
       <section
-        class="w-full max-w-[1260px] p-5 flex flex-col items-center gap-20 py-20"
+        class="w-full max-w-[1260px] p-5 flex flex-col items-center gap-12 md:gap-16 lg:gap-16"
         id="my-work"
       >
-        <h1 class="text-4xl"><span class="text-5xl">M</span>y Work</h1>
-        <div class="w-full flex flex-col gap-28">
-          <div class="w-full flex gap-5">
+        <h1 class="text-3xl md:text-4xl lg:text-4xl">
+          <span class="text-4xl md:text-5xl lg:text-5xl">M</span>y Work
+        </h1>
+        <div class="w-full flex flex-col gap-12 md:gap-16 lg:gap-16">
+          <div
+            class="w-full flex items-center flex-col gap-12 md:gap-10 lg:gap-10 md:flex-row lg:flex-row"
+          >
             <div
-              class="w-[50%] border p-3 drop-shadow-2xl gradient about-work-1"
+              class="w-full md:w-[50%] lg:w-[50%] p-3 drop-shadow-2xl gradient group about-work-1 relative"
             >
               <div class="card" loading="lazy">
                 <div class="img">
@@ -399,11 +435,25 @@
                   />
                 </div>
               </div>
+              <div
+                class="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.7)] invisible group-hover:visible flex items-center justify-evenly text-2xl text-white"
+              >
+                <a
+                  href=""
+                  class="flex items-center flex-col justify-center gap-2"
+                  ><i class="ri-github-fill text-6xl"></i>Github Repository</a
+                >
+                <a
+                  href=""
+                  class="flex items-center flex-col justify-center gap-2"
+                  ><i class="ri-links-fill text-6xl"></i>Live Preview</a
+                >
+              </div>
             </div>
             <div
-              class="w-[50%] flex flex-col items-start gap-5 p-5 text-xl text-justify text-[14px]"
+              class="w-full md:w-[50%] lg:w-[50%] flex flex-col items-start gap-5 text-xl text-justify text-[14px]"
             >
-              <p class="gilroy-bold text-2xl underline">
+              <p class="gilroy-bold text-2xl underline text-left">
                 Image Pulse - Image Gallery Web Application
               </p>
               <p class="italic">
@@ -414,9 +464,11 @@
               </p>
             </div>
           </div>
-          <div class="w-full flex flex-row-reverse gap-5">
+          <div
+            class="w-full flex flex-col md:flex-row-reverse lg:flex-row-reverse gap-12 md:gap-16 lg:gap-16 items-center -red-400 -2"
+          >
             <div
-              class="w-[50%] border p-3 drop-shadow-2xl gradient relative about-work-2"
+              class="w-full md:w-[50%] lg:w-[50%] p-3 drop-shadow-2xl gradient relative group about-work-2"
             >
               <div class="card" loading="lazy">
                 <div class="img">
@@ -481,11 +533,25 @@
                   />
                 </div>
               </div>
+              <div
+                class="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.7)] invisible group-hover:visible flex items-center justify-evenly text-2xl text-white"
+              >
+                <a
+                  href=""
+                  class="flex items-center flex-col justify-center gap-2"
+                  ><i class="ri-github-fill text-6xl"></i>Github Repository</a
+                >
+                <a
+                  href=""
+                  class="flex items-center flex-col justify-center gap-2"
+                  ><i class="ri-links-fill text-6xl"></i>Live Preview</a
+                >
+              </div>
             </div>
             <div
-              class="w-[50%] flex flex-col items-start gap-5 p-5 text-xl text-justify text-[14px]"
+              class="w-full md:w-[50%] lg:w-[50%] flex flex-col items-start gap-5 text-xl text-justify text-[14px]"
             >
-              <p class="gilroy-bold text-2xl underline">
+              <p class="gilroy-bold text-2xl underline text-left">
                 Daily Doer - To Do Web Application
               </p>
               <p class="italic">
@@ -504,13 +570,19 @@
         </div>
       </section>
       <section
-        class="w-full max-w-[1260px] p-5 border flex flex-col gap-10 items-center"
+        class="w-full max-w-[1260px] p-5 flex flex-col gap-12 md:gap-16 lg:gap-16 items-center"
         id="contact-me"
       >
-        <h1 class="text-4xl"><span class="text-5xl">C</span>ontact Me</h1>
-        <h2>Questions, Thoughts, Or Just Want To Say Hello?</h2>
+        <h2 class="text-3xl md:text-4xl lg:text-4xl">
+          <span class="text-4xl md:text-5xl lg:text-5xl">C</span>ontact Me
+        </h2>
+        <h2 class="text-xl text-center">
+          Questions, Thoughts, Or Just Want To Say Hello?
+        </h2>
         <div class="w-[100%] flex items-center justify-center">
-          <form class="w-[50%] flex flex-col gap-5 p-5 rounded-md gradient">
+          <form
+            class="w-full md:w-[75%] lg:w-[50%] flex flex-col gap-5 p-5 rounded-md gradient"
+          >
             <input
               type="text"
               name=""
@@ -536,16 +608,19 @@
             <input
               type="submit"
               value="Send Message"
-              class="w-full border border-white rounded-md text-white text-2xl p-4 outline-none"
+              class="w-full -white rounded-md text-white text-2xl p-4 outline-none"
             />
           </form>
         </div>
       </section>
       <footer
-        class="w-full max-w-[1260px] p-2 py-20 flex items-center justify-between"
+        class="w-full max-w-[1260px] p-2 flex items-center flex-col gap-12 md:gap-16 lg:gap-16 justify-between"
       >
-        <p class="text-2xl">&copy;2024 | All Rights Reserved.</p>
-        <div class="text-4xl flex gap-10">
+        <h2 class="text-3xl md:text-4xl lg:text-4xl">
+          <span class="text-4xl md:text-5xl lg:text-5xl">M</span>y social
+          handles
+        </h2>
+        <div class="text-4xl flex gap-10 flex-wrap items-center justify-center">
           <a href=""><i class="ri-github-fill"></i></a>
           <a href=""><i class="ri-linkedin-box-fill"></i></a>
           <a href=""><i class="ri-twitter-x-fill"></i></a>
@@ -556,6 +631,9 @@
             ><i class="ri-whatsapp-fill"></i
           ></a>
         </div>
+        <p class="text-[16px] tracking-wider text-center gilroy-bold">
+          &copy;2024 | All Rights Reserved.
+        </p>
       </footer>
     </div>
     <script
@@ -582,6 +660,15 @@
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
+      });
+    </script>
+    <script>
+      document.querySelector(".menu-btn").addEventListener("click", () => {
+        document.querySelector(".menu-ctn").style.display = "flex";
+      });
+
+      document.querySelector(".close-btn").addEventListener("click", () => {
+        document.querySelector(".menu-ctn").style.display = "none";
       });
     </script>
   </body>
