@@ -19,7 +19,7 @@
   </head>
   <body>
     <div
-      class="w-full min-h-screen flex flex-col items-center relative bg-white text-[#0CAFFF] gilroy-semibold -2 gap-12 md:gap-16 lg:gap-16 -red-500"
+      class="w-full min-h-screen flex flex-col items-center relative bg-white text-[#0CAFFF] gilroy-semibold -2 gap-12 md:gap-16 lg:gap-16 -red-500 overflow-hidden"
       id="home"
     >
       <div class="w-full flex justify-center bg-white shadow-sm">
@@ -668,6 +668,7 @@
       });
 
       document.querySelector(".close-btn").addEventListener("click", () => {
+        console.log(" ima vclicked");
         document.querySelector(".menu-ctn").style.display = "none";
       });
     </script>
